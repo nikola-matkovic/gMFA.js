@@ -1,0 +1,28 @@
+{
+  "name": "my-auth",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This Java library can take the large QR code that Google Authenticator produces when you export all the accounts and will break out all the OTP account strings and parse them into their individual components.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EasyG0ing1/GoogleAuthDecoder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EasyG0ing1/GoogleAuthDecoder/issues"
+  },
+  "homepage": "https://github.com/EasyG0ing1/GoogleAuthDecoder#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "jimp": "^1.6.0",
+    "jsqr": "^1.4.0",
+    "otpauth": "^9.4.0",
+    "otpauth-migration-parser": "^0.1.1",
+    "qr-scanner": "^1.4.2"
+  }
+}
